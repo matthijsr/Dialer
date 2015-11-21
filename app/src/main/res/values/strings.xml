@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Dialer</string>
+    <string name="dial">Dial</string>
+    <string name="back">Back</string>
+</resources>

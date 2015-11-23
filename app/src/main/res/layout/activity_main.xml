@@ -38,141 +38,166 @@
         android:layout_alignParentEnd="true"
         android:enabled="false"
         android:backgroundTint="#64dd17"
-        android:foregroundGravity="center"
-        android:foreground="@android:drawable/ic_menu_call" />
+        android:text="@string/dial" />
 
-    <GridLayout
+    <TableLayout
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
         android:layout_below="@+id/button"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:columnCount="3"
-        android:rowCount="4">
+        android:layout_alignParentEnd="true"
+        android:stretchColumns="0,1,2">
 
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="1"
-            android:id="@+id/button2"
-            android:layout_rowWeight="1"
-            android:layout_columnWeight="1"
-            android:backgroundTint="#ffffff"
-            android:onClick="onButtonClick"
-            android:enabled="true" />
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
 
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="2"
-            android:id="@+id/button3"
-            android:layout_rowWeight="1"
-            android:layout_columnWeight="1"
-            android:backgroundTint="#ffffff"
-            android:onClick="onButtonClick"
-            android:enabled="true" />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="1"
+                android:id="@+id/button2"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:backgroundTint="#ffffff"
+                android:onClick="onButtonClick"
+                android:enabled="true" />
 
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="3"
-            android:id="@+id/button4"
-            android:layout_rowWeight="1"
-            android:layout_columnWeight="1"
-            android:backgroundTint="#ffffff"
-            android:onClick="onButtonClick"
-            android:enabled="true" />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="2"
+                android:id="@+id/button3"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:backgroundTint="#ffffff"
+                android:onClick="onButtonClick"
+                android:enabled="true" />
 
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="4"
-            android:id="@+id/button5"
-            android:layout_rowWeight="1"
-            android:layout_columnWeight="1"
-            android:backgroundTint="#ffffff"
-            android:onClick="onButtonClick"
-            android:enabled="true" />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="3"
+                android:id="@+id/button4"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:backgroundTint="#ffffff"
+                android:onClick="onButtonClick"
+                android:enabled="true" />
+        </TableRow>
 
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="5"
-            android:id="@+id/button6"
-            android:layout_rowWeight="1"
-            android:layout_columnWeight="1"
-            android:backgroundTint="#ffffff"
-            android:onClick="onButtonClick"
-            android:enabled="true" />
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
 
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="6"
-            android:id="@+id/button7"
-            android:layout_rowWeight="1"
-            android:layout_columnWeight="1"
-            android:backgroundTint="#ffffff"
-            android:onClick="onButtonClick"
-            android:enabled="true" />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="4"
+                android:id="@+id/button5"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:backgroundTint="#ffffff"
+                android:onClick="onButtonClick"
+                android:enabled="true" />
 
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="7"
-            android:id="@+id/button8"
-            android:layout_rowWeight="1"
-            android:layout_columnWeight="1"
-            android:backgroundTint="#ffffff"
-            android:onClick="onButtonClick"
-            android:enabled="true" />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="5"
+                android:id="@+id/button6"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:backgroundTint="#ffffff"
+                android:onClick="onButtonClick"
+                android:enabled="true" />
 
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="8"
-            android:id="@+id/button9"
-            android:layout_rowWeight="1"
-            android:layout_columnWeight="1"
-            android:backgroundTint="#ffffff"
-            android:onClick="onButtonClick"
-            android:enabled="true" />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="6"
+                android:id="@+id/button7"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:backgroundTint="#ffffff"
+                android:onClick="onButtonClick"
+                android:enabled="true" />
+        </TableRow>
 
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="9"
-            android:id="@+id/button10"
-            android:layout_rowWeight="1"
-            android:layout_columnWeight="1"
-            android:backgroundTint="#ffffff"
-            android:onClick="onButtonClick"
-            android:enabled="true" />
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
 
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="0"
-            android:id="@+id/button12"
-            android:layout_rowWeight="1"
-            android:layout_columnWeight="1"
-            android:layout_column="1"
-            android:backgroundTint="#ffffff"
-            android:onClick="onButtonClick"
-            android:enabled="true" />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="7"
+                android:id="@+id/button8"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:backgroundTint="#ffffff"
+                android:onClick="onButtonClick"
+                android:enabled="true" />
 
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:id="@+id/button13"
-            android:layout_rowWeight="1"
-            android:layout_columnWeight="1"
-            android:layout_column="2"
-            android:backgroundTint="#d50000"
-            android:foreground="@drawable/abc_ic_ab_back_mtrl_am_alpha"
-            android:foregroundGravity="center"
-            android:enabled="true"
-            android:onClick="backButtonClick" />
-    </GridLayout>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="8"
+                android:id="@+id/button9"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:backgroundTint="#ffffff"
+                android:onClick="onButtonClick"
+                android:enabled="true" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="9"
+                android:id="@+id/button10"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:backgroundTint="#ffffff"
+                android:onClick="onButtonClick"
+                android:enabled="true" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"></FrameLayout>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="0"
+                android:id="@+id/button12"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:backgroundTint="#ffffff"
+                android:onClick="onButtonClick"
+                android:enabled="true" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/button13"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:backgroundTint="#d50000"
+                android:enabled="true"
+                android:onClick="backButtonClick"
+                android:text="@string/back" />
+
+        </TableRow>
+    </TableLayout>
 
 </RelativeLayout>

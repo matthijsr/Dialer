@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Dialer</string>
+    <string name="action_settings">Instellingen</string>
+    <string name="back">Terug</string>
+    <string name="dial">Bel</string>
+    <string name="invalid_number">Ongeldig Nummer</string>
+    <string name="large_text">"ongebruikt"</string>
+    <string name="title_activity_country">Land</string>
+</resources>
